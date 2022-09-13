@@ -1,7 +1,5 @@
 import './App.css';
 import Navbar from './Components/NavBar';
-// import { Switch, Route } from "react-router-dom";
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import React, { Component } from 'react'
 import News from './Components/News';
 import LoadingBar from 'react-top-loading-bar';
