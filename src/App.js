@@ -31,12 +31,12 @@ export default class App extends Component {
             progress={this.state.progress}
           />
           <Routes>
-            <Route exact path="/"><News setProgress={this.setProgress} key="general" pageSize={5} country="in" category="general" /></Route>
-            <Route exact path="/business"><News setProgress={this.setProgress} key="business" pageSize={9} country="in" category="business" /></Route>
-            <Route exact path="/entertainment"><News setProgress={this.setProgress} key="entertainment" pageSize={9} country="in" category="entertainment" /></Route>
-            <Route exact path="/general"><News setProgress={this.setProgress} key="general" pageSize={9} country="in" category="general" /></Route>
-            <Route exact path="/health"><News setProgress={this.setProgress} key="health" pageSize={9} country="in" category="health" /></Route>
-            {/* <Route path='/about'><About/></Route> */}
+            <Route exact path="/" element={<News setProgress={this.setProgress} key="general" pageSize={5} country="in" category="general" />}></Route>
+            <Route exact path="/business" element={<News setProgress={this.setProgress} key="business" pageSize={9} country="in" category="business" />}></Route>
+            <Route exact path="/entertainment" element={<News setProgress={this.setProgress} key="entertainment" pageSize={9} country="in" category="entertainment" />}></Route>
+            <Route exact path="/general" element={<News setProgress={this.setProgress} key="general" pageSize={9} country="in" category="general" />}></Route>
+            <Route exact path="/health" element={<News setProgress={this.setProgress} key="health" pageSize={9} country="in" category="health" />}></Route>
+            
           </Routes>
         </Router>
       </div>
