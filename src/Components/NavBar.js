@@ -17,7 +17,10 @@ export default class NavBar extends Component {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            
+            <Nav.Link href="/Bussiness">Bussiness</Nav.Link>
+            <Nav.Link href="/Entertainment">Entertainment</Nav.Link>
+            <Nav.Link href="/General">General</Nav.Link>
+            <Nav.Link href="/Health">Health</Nav.Link>
               
           </Nav>
         </Navbar.Collapse>
